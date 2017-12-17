@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="lib-src"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib-bin/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="lib-bin/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="lib-bin/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib-bin/httpclient-4.0.1.jar"/>
+	<classpathentry kind="lib" path="lib-bin/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="lib-bin/httpmime-4.0.1.jar"/>
+	<classpathentry kind="lib" path="lib-bin/teleal-common-1.0.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
