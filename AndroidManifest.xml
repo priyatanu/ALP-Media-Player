@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cajor.dk.dlna"
+    android:versionCode="19" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/allt_symbol_rgb"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:background="@drawable/allt_logo_serverlist_white"
+            android:label="@string/app_name" />
+
+        <!-- Splash screen -->
+        <activity
+            android:name="com.cajor.dk.dlna.SplashActivity"
+            android:label="@string/title_activity_splash"
+
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/action_settings" />
+
+        <service android:name="org.fourthline.cling.android.AndroidUpnpServiceImpl" />
+
+        <activity
+            android:name=".WorkerActivity"
+            android:label="@string/title_activity_worker" >
+        </activity>
+    </application>
+
+</manifest>
