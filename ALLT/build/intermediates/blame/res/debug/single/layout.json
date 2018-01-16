@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_browse.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_browse.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_viewer.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_image_viewer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\browse_item_checkable.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\browse_item_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_player_list.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_player_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tab_browse.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_tab_browse.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\yaacc_progress_dialog.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\yaacc_progress_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_avtransport_player.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_avtransport_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_third_partie_music_player.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_third_partie_music_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_multi_content_player.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_multi_content_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yaacc_upnp_server_control.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_yaacc_upnp_server_control.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yaacc_log.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_yaacc_log.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_content_list.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_content_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receiver_list.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_receiver_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_server_list.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_server_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\activity_music_player.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\activity_music_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\layout\\browse_item.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\layout\\browse_item.xml"
+    }
+]

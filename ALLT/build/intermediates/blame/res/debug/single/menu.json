@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\menu\\activity_avtransport_player.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\menu\\activity_avtransport_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\menu\\activity_music_player.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\menu\\activity_music_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\menu\\activity_yaacc_upnp_server_control.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\menu\\activity_yaacc_upnp_server_control.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\menu\\activity_image_viewer.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\menu\\activity_image_viewer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\menu\\activity_third_partie_music_player.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\menu\\activity_third_partie_music_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\menu\\activity_generic_browse.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\menu\\activity_generic_browse.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\menu\\activity_multi_content_player.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\menu\\activity_multi_content_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main.xml",
+        "source": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\menu\\activity_main.xml"
+    }
+]

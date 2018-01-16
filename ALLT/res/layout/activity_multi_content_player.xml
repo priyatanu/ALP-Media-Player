@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ *
+ * Copyright (C) 2013 www.yaacc.de 
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 3
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiContentPlayerActivity" >
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/musicActivityCurrentItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playerCurrentItem"
+        android:layout_above="@+id/musicActivityElapsedTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Space
+        android:id="@+id/musicActivitySeparator3"
+        android:layout_toRightOf="@+id/musicActivityCurrentItem"
+        android:layout_toEndOf="@+id/musicActivityCurrentItem"
+        android:layout_alignBaseline="@+id/musicActivityCurrentItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/musicActivityNextLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignBaseline="@+id/musicActivityCurrentItem"
+        android:layout_toEndOf="@+id/musicActivitySeparator3"
+        android:layout_toRightOf="@+id/musicActivitySeparator3"
+        android:text="@string/musicActivityNextLabel"
+        />
+
+
+    <TextView
+        android:id="@+id/musicActivityNextItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/musicActivityCurrentItem"
+        android:text="@string/playerNextItem"
+        android:layout_alignTop="@+id/musicActivityNextLabel"
+        android:layout_toRightOf="@+id/musicActivityNextLabel"
+        android:layout_toEndOf="@+id/musicActivityNextLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+
+
+
+    <TextView
+        android:id="@+id/musicActivityElapsedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playerTimeElapsed"
+        android:layout_above="@+id/musicActivitySeekBarLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/musicActivitySeparator"
+        android:layout_alignBaseline="@+id/musicActivityElapsedTime"
+        android:layout_toRightOf="@id/musicActivityElapsedTime"
+        android:layout_toEndOf="@id/musicActivityElapsedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playerTimeSeparator"/>
+
+    <TextView
+        android:id="@+id/musicActivityDuration"
+        android:layout_alignBaseline="@+id/musicActivityElapsedTime"
+        android:layout_toRightOf="@id/musicActivitySeparator"
+        android:layout_toEndOf="@id/musicActivitySeparator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playerTimeDuration"/>
+    <Space
+        android:id="@+id/musicActivitySeparator2"
+        android:layout_alignBaseline="@+id/musicActivityElapsedTime"
+        android:layout_toRightOf="@id/musicActivityDuration"
+        android:layout_toEndOf="@id/musicActivityDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/musicActivitySeekBarLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/musicActivityControls"
+        android:orientation="horizontal" >
+
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/multiActivitySeekBar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/musicActivityControls"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/multiContentPlayerActivityControlPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/previous"
+            android:src="@drawable/player_start" />
+
+        <ImageButton
+            android:id="@+id/multiContentPlayerActivityControlPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/multiContentPlayerActivityControlPrev"
+            android:layout_toRightOf="@+id/multiContentPlayerActivityControlPrev"
+            android:contentDescription="@string/play"
+            android:src="@drawable/player_play" />
+
+        <ImageButton
+            android:id="@+id/multiContentPlayerActivityControlPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/multiContentPlayerActivityControlPlay"
+            android:layout_toRightOf="@+id/multiContentPlayerActivityControlPlay"
+            android:contentDescription="@string/pause"
+            android:src="@drawable/player_pause" />
+
+        <ImageButton
+            android:id="@+id/multiContentPlayerActivityControlStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@+id/multiContentPlayerActivityControlPause"
+            android:layout_toRightOf="@+id/multiContentPlayerActivityControlPause"
+            android:contentDescription="@string/stop"
+            android:src="@drawable/player_stop" />
+
+        <ImageButton
+            android:id="@+id/multiContentPlayerActivityControlNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/multiContentPlayerActivityControlStop"
+            android:layout_toRightOf="@+id/multiContentPlayerActivityControlStop"
+            android:contentDescription="@string/next"
+            android:src="@drawable/player_end" />
+        <ImageButton
+            android:id="@+id/multiContentPlayerActivityControlExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/multiContentPlayerActivityControlNext"
+            android:layout_toRightOf="@+id/multiContentPlayerActivityControlNext"
+            android:contentDescription="@string/exit"
+            android:src="@drawable/button_cancel" />
+    </RelativeLayout>
+
+    <SurfaceView
+        android:id="@+id/surfaceview"
+        android:layout_marginTop="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"/>
+
+</RelativeLayout>

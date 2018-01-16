@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *
+ * Copyright (C) 2013 www.yaacc.de 
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 3
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@+id/itemList"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/controls" />
+
+    <RelativeLayout
+        android:id="@+id/controls"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/controlDevices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/controlPrev"
+            android:layout_toLeftOf="@+id/controlPrev"
+            android:contentDescription="@string/browse_button_devices"
+            android:src="@drawable/device_48_48" />
+
+        <ImageButton
+            android:id="@+id/controlPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/controlStop"
+            android:layout_toLeftOf="@+id/controlStop"
+            android:contentDescription="@string/browse_button_prev"
+            android:src="@drawable/player_play" />
+
+        <ImageButton
+            android:id="@+id/controlStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/browse_button_stop"
+            android:src="@drawable/player_stop" />
+
+        <ImageButton
+            android:id="@+id/controlNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/controlStop"
+            android:layout_toRightOf="@+id/controlStop"
+            android:contentDescription="@string/browse_button_next"
+            android:src="@drawable/refresh" />
+
+        <ImageButton
+            android:id="@+id/controlReceiverDevices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/controlNext"
+            android:layout_toRightOf="@+id/controlNext"
+            android:contentDescription="@string/browse_button_devices"
+            android:src="@drawable/laptop_48_48" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

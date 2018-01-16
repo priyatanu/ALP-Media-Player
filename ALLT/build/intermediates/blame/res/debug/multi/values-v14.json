@@ -1,0 +1,47 @@
+[
+    {
+        "outputFile": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 56,
+                    "endOffset": 107
+                },
+                "from": {
+                    "file": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 904,
+                        "endColumn": 57,
+                        "endOffset": 957
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 112,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 619
+                },
+                "from": {
+                    "file": "C:\\Users\\Priyatanu\\Documents\\code\\ALLT\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 965,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 1480
+                    }
+                }
+            }
+        ]
+    }
+]
